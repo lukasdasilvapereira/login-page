@@ -11,7 +11,7 @@ body {
     background-image: url(5698.jpg);
 }
 
-.form {
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,11 +19,93 @@ body {
     margin: auto;
     min-height: 100vh;
     gap: 20px;
-    width: 400px;
+    width: 200px;
 }
 
 .form-login {
-    padding: 140px;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.61);
     border-radius: 20px;
+    padding: 140px;
 }
+
+.title {
+    font-size: 3.5em;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.emp {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.em {
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.61);
+    background-color: transparent;
+    color: white;
+    width: 300px;
+}
+
+.pas {
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.61);
+    background-color: transparent;
+    color: white;
+    width: 300px;
+}
+
+.form-page {
+    width: 250px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder {
+    color: white;
+}
+
+.remember {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 250px;
+   gap: 10px;
+   margin: auto;
+   margin-bottom: 20px;
+}
+
+.rem {
+    font-size: 0.8em;
+    color: white;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s ease;
+    margin-bottom: 20px;
+}
+
+.submit:hover {
+    background-color: transparent;
+    color: white;
+}
+
+
